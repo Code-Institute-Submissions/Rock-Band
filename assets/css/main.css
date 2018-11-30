@@ -1,10 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
 
-/* ____________________________________________________________ body margins and paddings */
+/* ____________________________________________________________ html, body, heading */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+section {
+    margin-top: 20px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+}
 
 /* ____________________________________________________________ background colors */
-
-/* ____________________________________________________________ headings */
 
 /* ____________________________________________________________ Navigation Bar */
 
@@ -46,6 +60,9 @@
     transition-duration: .35s;
     -webkit-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out;
+}
+
+
 
 /* ____________________________________________________________ news */
 
@@ -56,6 +73,20 @@
 /* ____________________________________________________________ media */
 
 /* ____________________________________________________________ contact */
+
+.btn-info {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #5bc0de;
+    border-radius: 5px;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #5bc0de;
+    border: 1px solid #5bc0de;
+    border-radius: 5px;
+}
 
 /* ____________________________________________________________ footer */
 
