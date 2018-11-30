@@ -1,31 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
 
+/* ____________________________________________________________ body margins and paddings */
 
 /* ____________________________________________________________ background colors */
-.bg-color-nav {
-    background-color: #00688e;
+
+/* ____________________________________________________________ headings */
+
+/* ____________________________________________________________ Navigation Bar */
+
+.navbar {
+    min-height: 70px;
 }
 
-.bg-color-news {
-    background-color: #92d100;
+.navbar-brand {
+    padding-top: 25px;
+    padding-left: 25px;
 }
 
-.bg-color-aboutus {
-    background-color: #00688e;
+.nav>li {
+    position: relative;
+    display: block;
+    padding-right: 20px;
 }
 
-.bg-color-offer {
-    background-color: #92d100;
+
+.navbar-nav>li>a {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    width: 80px;
+    text-align: center;
 }
 
-.bg-color-media {
-    background-color: #00688e;
-}
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #ffffff;
+    height: 1px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
 
-.bg-color-contact {
-    background-color: #92d100;
-}
+/* ____________________________________________________________ news */
 
-.bg-color-footer {
-    background-color: #000000;
+/* ____________________________________________________________ about us */
+
+/* ____________________________________________________________ offer */
+
+/* ____________________________________________________________ media */
+
+/* ____________________________________________________________ contact */
+
+/* ____________________________________________________________ footer */
+
+/* ____________________________________________________________ media queries */
+
+@media (min-width: 768px) {
+    .navbar-nav>li {
+        float: left;
+        padding-right: 15px;
+    }
 }
