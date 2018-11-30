@@ -11,11 +11,8 @@ body {
     right: 0;
 }
 
-section {
-    margin-top: 20px;
-    padding-top: 25px;
-    margin-bottom: 20px;
-    padding-bottom: 25px;
+.section-padding {
+    padding: 70px;
 }
 
 /* ____________________________________________________________ background colors */
@@ -23,7 +20,11 @@ section {
 /* ____________________________________________________________ Navigation Bar */
 
 .navbar {
+    background: #000000;
+    z-index: 999999;
+    top: 0px !important;
     min-height: 70px;
+    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
 }
 
 .navbar-brand {
@@ -68,6 +69,31 @@ section {
 
 /* ____________________________________________________________ about us */
 
+.about-main-text {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+
+.member-card {
+    margin-top: 20px;
+    margin-right: 25px;
+    border: 1px solid #eee;
+    border-radius: 25px;
+    text-align: center
+}
+
+.member-card img {
+    padding-top: 20px;
+}
+
+
+.member-card p {
+    padding: 20px;
+}
+
+
 /* ____________________________________________________________ offer */
 
 /* ____________________________________________________________ media */
@@ -88,7 +114,31 @@ section {
     border-radius: 5px;
 }
 
+
+
+/* ____________________________________________________________ google maps style */
+
+.mapouter {
+    text-align: right;
+    height: 500px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 /* ____________________________________________________________ footer */
+
+footer {
+    background-color: #5bc0de;
+}
+
 
 /* ____________________________________________________________ media queries */
 
@@ -98,3 +148,4 @@ section {
         padding-right: 15px;
     }
 }
+
