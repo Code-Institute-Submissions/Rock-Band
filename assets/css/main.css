@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Muli:100,200,300,400,500,600,700');
 
 /* ____________________________________________________________ html, body, heading */
 
@@ -12,7 +12,12 @@ body {
 }
 
 .section-padding {
-    padding: 70px;
+    margin-top: 70px;
+}
+
+.container-fluid{
+    margin:0;
+    padding: 0;
 }
 
 /* ____________________________________________________________ background colors */
@@ -20,15 +25,18 @@ body {
 /* ____________________________________________________________ Navigation Bar */
 
 .navbar {
+    font-family: "Muli",sans-serif;
+    font-weight: 400;
+    margin-bottom: 0px;
     background: #000000;
     z-index: 999999;
     top: 0px !important;
-    min-height: 70px;
-    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+    min-height: 60px;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.06);
 }
 
 .navbar-brand {
-    padding-top: 25px;
+    padding-top: 20px;
     padding-left: 25px;
 }
 
@@ -38,11 +46,11 @@ body {
     padding-right: 20px;
 }
 
-
 .navbar-nav>li>a {
-    padding-top: 25px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 25px;
     width: 80px;
+    height: 50px;
     text-align: center;
 }
 
@@ -64,35 +72,14 @@ body {
 }
 
 
+/* ____________________________________________________________ top slider */
+
 
 /* ____________________________________________________________ news */
 
 /* ____________________________________________________________ about us */
 
-.about-main-text {
-    text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px
-}
-
-
-.member-card {
-    margin-top: 20px;
-    margin-right: 25px;
-    border: 1px solid #eee;
-    border-radius: 25px;
-    text-align: center
-}
-
-.member-card img {
-    padding-top: 20px;
-}
-
-
-.member-card p {
-    padding: 20px;
-}
-
+/* ____________________________________________________________ member card */
 
 /* ____________________________________________________________ offer */
 
@@ -115,24 +102,6 @@ body {
 }
 
 
-
-/* ____________________________________________________________ google maps style */
-
-.mapouter {
-    text-align: right;
-    height: 500px;
-    width: 100%;
-}
-
-.gmap_canvas {
-    overflow: hidden;
-    background: none!important;
-    height: 500px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 /* ____________________________________________________________ footer */
 
 footer {
@@ -148,4 +117,3 @@ footer {
         padding-right: 15px;
     }
 }
-
