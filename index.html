@@ -18,38 +18,28 @@
 <body>
     <!-- Header -->
     <header class="container-fluid">
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <!-- brand logotype -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
+                <!-- navigation anchors - section -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">
-                        <img alt="RockBand-logotype" src="assets/images/Rockband_logotype.png" width=100>
-                    </a>
+                    <a class="navbar-brand" href="#home">Rock Band</a>
                 </div>
+                <ul class="nav navbar-nav navbar-float-right navbar-right">
+                    <li class=""><a href="#home" class="hvr-underline-from-left">Home</a></li>
+                    <li class=""><a href="#news" class="hvr-underline-from-left">News</a></li>
+                    <li class=""><a href="#about" class="hvr-underline-from-left">About</a></li>
+                    <li class=""><a href="#music" class="hvr-underline-from-left">Music</a></li>
+                    <li class=""><a href="#offer" class="hvr-underline-from-left">Offer</a></li>
+                    <li class=""><a href="#contact" class="hvr-underline-from-left">Contact</a></li>
+                </ul>
             </div>
-            <!-- fixed top navigation bar -->
-            <nav class="navbar navbar-inverse navbar-fixed-top">
-                <div class="container">
-                    <!-- navigation anchors - section -->
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="index.html">Rock Band</a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-float-right navbar-right">
-                        <li class=""><a href="#top" class="hvr-underline-from-left">Home</a></li>
-                        <li class=""><a href="#news" class="hvr-underline-from-left">News</a></li>
-                        <li class=""><a href="#about" class="hvr-underline-from-left">About</a></li>
-                        <li class=""><a href="#music" class="hvr-underline-from-left">Music</a></li>
-                        <li class=""><a href="#offer" class="hvr-underline-from-left">Offer</a></li>
-                        <li class=""><a href="#contact" class="hvr-underline-from-left">Contact</a></li>
-                    </ul>
-                </div>
-                </div>
-            </nav>
+            </div>
+        </nav>
         </nav>
     </header>
 
     <!-- top slider -->
-    <section class="container-fluid">
+    <section id="home" class="container-fluid">
         <div class="top-slider">
             <dirv class="row"></dirv>
         </div>
@@ -241,10 +231,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <h5 class=" text-left social-header">Stay up to date! Sign up for our newsletter!</h5>
-                        <div class="float-left" <form>
-                            <input type="text" name="emailaddress" class="form-control col-md-6 newsletter-email" id="emailaddress" placeholder="Email address" required/>
-                            <button type="submit" class="col-md-6 btn float-right newsletter-btn">Sign up!</button>
+                        <h6 class=" text-left social-header">Stay up to date! Sign up for our newsletter!</h6>
+                        <div class="float-left">
+                            <form>
+                                <input type="text" name="emailaddress" class="form-control col-md-6 newsletter-email" id="emailaddress" placeholder="Email address" required/>
+                                <button type="submit" class="col-md-6 btn float-right newsletter-btn">Sign up!</button>
                             </form>
                         </div>
                     </div>
@@ -271,7 +262,28 @@
             </div>
         </div>
     </footer>
+    
+    <!--butotn and scirpt from -- https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="glyphicon glyphicon-arrow-up"></i></button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() { scrollFunction() };
 
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            }
+            else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 
 </html>
