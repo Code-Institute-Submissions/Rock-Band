@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:100,200,300,400,500,600,700');
 
-/* ____________________________________________________________ html, body, heading */
+/* ____________________________________________________________ html, body, heading, section, */
 
 html {
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
     padding: 0;
     top: 0;
     left: 0;
     right: 0;
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
 }
 
 hr,
@@ -24,38 +28,38 @@ h2 {
     margin-top: 60px;
 }
 
-.uppercase {
-    text-transform: uppercase;
-}
-
-
-.section-top {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
 .container-fluid,
 .row {
     margin: 0;
     padding: 0;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+.section-top {
+    background-color: #000;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
 .inline-block {
     display: inline-block;
 }
 
-
 /* ____________________________________________________________ Navigation Bar */
 
 .navbar {
-    font-family: "Muli", sans-serif;
-    font-weight: 400;
     margin-bottom: 0px;
     background: #000000;
     z-index: 999999;
     top: 0px !important;
     min-height: 60px;
-    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 4px 30px 1px rgba(255, 255, 255, 0.2);
 }
 
 .navbar-brand {
@@ -94,14 +98,65 @@ h2 {
     transition-timing-function: ease-in-out;
 }
 
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 10px 8px;
+    margin-top: 12px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #fff0;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
 
 /* ____________________________________________________________ top slider */
 
-.top-slider {
-    margin-top: 60px;
+/* added from https://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp - carousel with javasctipt - bootstrap */
+
+.carousel-indicators {
+    opacity: 0.5;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+.carousel-indicators.active {
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #fff;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
     width: 100%;
-    height: 600px;
-    background-color: #eaeaea;
+    height: auto;
+    margin: auto;
 }
 
 /* ____________________________________________________________ news */
@@ -109,15 +164,8 @@ h2 {
 .news-section {
     width: 100%;
     height: 500px;
-    background-color: #5bc0dd;
-}
-
-/* ____________________________________________________________ about us */
-
-.aboutus-section {
-    width: 100%;
-    height: 500px;
-    background-color: #fafafa;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /* ____________________________________________________________ member card */
@@ -135,26 +183,85 @@ h2 {
     padding: 0px;
 }
 
+/* ____________________________________________________________ about us */
 
+.aboutus-section {
+    width: 100%;
+    height: 500px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.btn {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #5bc0dd;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
 
 /* ____________________________________________________________ offer */
 
 .offer-section {
     width: 100%;
     height: 500px;
-    background-color: #5bc0dd;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /* ____________________________________________________________ media */
 
 .media-section {
     width: 100%;
-    height: 600px;
-    background-color: #5bc0dd;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.media-section h3,
+p {
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+}
+
+.youtubue-video {
+    width: 500px;
+    height: 400px;
+}
+
+.song-title {
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+audio {
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
 /* ____________________________________________________________ contact */
+
+.contact-section {
+    width: 100%;
+    height: 500px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 .btn {
     display: inline-block;
@@ -172,7 +279,7 @@ h2 {
 }
 
 .btn:hover {
-    background-color: #000000;
+    background-color: #5bc0dd;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -180,29 +287,37 @@ h2 {
 }
 
 .btn-info {
-    color: #fff;
-    background-color: #5bc0dd;
+    color: #000;
+    background-color: #ffffff;
     border-radius: 4px;
     border: 0;
 }
 
 /* ____________________________________________________________ footer */
 
+footer {
+    padding-top: 60px;
+    background-color: #000000;
+}
+
+
 .footer-actual {
-    min-height: 100px;
+    min-height: 150px;
     color: #ffffff;
     margin: 0;
-    background-color: #5bc0dd;
 }
 
 .newsletter-email {
     width: 50%;
     border-color: #ffffff;
+    margin-top: 5px;
 }
 
 .newsletter-btn {
     width: 20%;
-    color: #ffffff;
+    color: #000000;
+    background-color: #ffffff;
+    margin-top: 5px;
     margin-left: 25px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -212,10 +327,9 @@ h2 {
 
 .newsletter-btn:hover {
     width: 20%;
-    color: #5bc0dd;
+    color: #ffffff;
     margin-left: 25px;
-    background-color: #ffffff;
-    border: 1px solid #ffffff;
+    background-color: #5bc0dd;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -229,6 +343,7 @@ h2 {
     font-size: 15px;
     padding-top: 5px;
     padding-bottom: 15px;
+    margin-top: 30px;
 }
 
 .social-header-space {
@@ -267,22 +382,23 @@ h2 {
     background: #ffffff;
 }
 
-.footer2-colors {
-    margin-top: -15px;
+.footer2 {
     background-color: #000000;
     color: #ffffff;
+    border-top: 1px solid #ffffff;
 }
 
-.footer2-color h5 {
+.footer2 h5 {
     margin-top: 15px;
 }
 
 
 /* ____________________________________________________________ GoUp button */
+
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 104px;
+    bottom: 110px;
     right: 50px;
     z-index: 99;
     border: none;
@@ -291,10 +407,12 @@ h2 {
     color: white;
     cursor: pointer;
     border-radius: 10px;
-    font-size: 15px;
+    line-height: 2;
+    font-size: 14px;
     width: 50px;
     height: 50px;
     margin: 0px auto;
+    border: 1px solid #ffffff;
 }
 
 #myBtn:hover {
