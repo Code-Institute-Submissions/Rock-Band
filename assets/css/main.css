@@ -24,23 +24,9 @@ h4 {
     margin: 0;
 }
 
-h2 {
-    margin-top: 60px;
-    margin-bottom: 20px;
-}
-
-.media-section h3,
-p {
-    font-family: "Muli", sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: #fff;
-    padding-bottom: 15px;
-}
-
 .container-fluid,
 .row {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -51,10 +37,13 @@ p {
 .section-top {
     background-color: #000;
     font-family: "Muli", sans-serif;
-    font-weight: 400;
     color: #ffffff;
     padding-top: 60px;
-    padding-bottom: 120px;
+    padding-bottom: 75px;
+}
+
+.section-title {
+    margin-bottom: 30px;
 }
 
 .inline-block {
@@ -62,9 +51,42 @@ p {
 }
 
 .magic-border {
-    width: 80%;
+    width: 90%;
     border: .5px solid #ffffff;
 }
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #618686;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.btn:hover {
+    color: #618686;
+    background-color: #ffffff;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.btn-info {
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #618686;
+    border-radius: 4px;
+    border: 0;
+}
+
 
 /* ____________________________________________________________ Navigation Bar */
 
@@ -74,7 +96,7 @@ p {
     z-index: 999999;
     top: 0px !important;
     min-height: 60px;
-    box-shadow: 0px 4px 30px 1px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 30px 1px rgb(91, 192, 221, 0.2);
 }
 
 .navbar-brand {
@@ -146,6 +168,11 @@ p {
 
 /* added from https://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp - carousel with javasctipt - bootstrap */
 
+#home {
+    margin-top: 60px;
+}
+
+
 .carousel-indicators {
     opacity: 0.5;
     position: absolute;
@@ -166,139 +193,172 @@ p {
     margin: auto;
 }
 
+@media screen and (min-width: 768px) {
+    .carousel-caption {
+        right: 20%;
+        left: 20%;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .carousel-indicators {
+        opacity: 0.5;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        z-index: 15;
+        width: 60%;
+        padding-left: 0;
+        margin-left: -30%;
+        text-align: center;
+        list-style: none;
+        font-size: 5px;
+    }
+    .carousel-caption h3 {
+        font-size: 18px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+        margin: 0 0 0px;
+    }
+}
 
 /* ____________________________________________________________ news */
 
-.news-section {
-    width: 100%;
-    height: 500px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+.btn-subscribe {
+    margin-top: 10px;
 }
 
-/* ____________________________________________________________ member card */
-
-.member-card-main {
-    width: 80%;
-    padding: 0;
-    background-color: #ffffff;
-    border: 1px solid #fafafa;
-    color: #000000;
+.main-news {
+    margin-top: 30px;
+    text-align: center;
 }
 
-.round-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 1px solid #ffffff;
-}
-
-.round-photo img {
+.main-news img {
     width: 100%;
     height: 100%;
-    border-radius: 50%
 }
 
-.mebmer-card-main p {
-    margin: 0px;
-    padding: 0px;
+.main-news a {
+    text-align: right;
+    float: right;
+}
+
+.card {
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-table;
+}
+
+.card-title {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 /* ____________________________________________________________ about us */
 
-.aboutus-section {
-    width: 100%;
-    height: 500px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+.about-top {
+    text-align: center;
 }
 
-.btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    color: #000000;
-    border-radius: 4px;
-    background-color: #ffffff;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+.about-main {
+    text-align: center;
 }
 
-.btn:hover {
-    color: #ffffff;
-    background-color: #5bc0dd;
-    transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-}
-
-/* ____________________________________________________________ offer */
-
-.offer-section {
-    width: 100%;
-    height: 500px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-/* ____________________________________________________________ media */
-
-.media-section {
-    width: 100%;
+.card-aboutus {
     height: auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: inline-table;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 25px;
 }
 
-.media-section h3,
-p {
-    font-family: "Muli", sans-serif;
-    font-weight: 400;
+.card-aboutus-title {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #618686;
+}
+
+.card-aboutus-name {
     font-size: 15px;
-    color: #fff;
-}
-
-.youtubue-video {
-    width: 500px;
-    height: 400px;
-}
-
-.song-title {
-    font-family: "Muli", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    color: #ffffff;
-    margin-top: 15px;
-    margin-bottom: -10px;
-}
-
-audio {
-    width: 100%;
-    height: 60px;
-    margin-top: 15px;
+    font-weight: 200;
     margin-bottom: 15px;
 }
 
 
-/* ____________________________________________________________ contact */
-
-.contact-section {
-    width: 100%;
-    height: 500px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+.card-aboutus-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
-.btn-info {
-    color: #000;
-    background-color: #ffffff;
-    border-radius: 4px;
-    border: 0;
+
+.card-aboutus img {
+    width: 100%;
+    vertical-align: middle;
+    margin-top: 35px;
+    border: 2px solid #ffffff;
+}
+
+/* ____________________________________________________________ media */
+
+audio {
+    width: 100%;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+
+.you-tube-video {
+    min-width: 100%;
+    height: 100%;
+
+}
+
+/* ____________________________________________________________ offer */
+
+/* ____________________________________________________________ contact */
+
+.info-box {
+    margin-top: 10px;
+    padding: 20px;
+    font-weight: 200;
+    background-color: #618686;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+}
+
+.info-box hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.info-box h5 {
+    padding-top: 5px;
+}
+
+.info-box p {
+    margin-top: -5px;
+}
+
+.important-number {
+    color: #ffffff !important;
+    text-decoration: none;
 }
 
 /* ____________________________________________________________ footer */
@@ -312,40 +372,20 @@ footer {
     min-height: 150px;
     color: #ffffff;
     margin: 0;
+    padding-bottom: 40px;
 }
 
 .newsletter-email {
-    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
     border-color: #ffffff;
-    margin-top: 5px;
 }
 
 .newsletter-btn {
-    width: 20%;
-    color: #000000;
-    background-color: #ffffff;
-    margin-top: 5px;
-    margin-left: 25px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    margin-top: 10px;
 }
-
-.newsletter-btn:hover {
-    width: 20%;
-    color: #ffffff;
-    margin-left: 25px;
-    background-color: #5bc0dd;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
 
 .social-header {
-    font-family: "Muli", sans-serif;
     font-weight: 300;
     font-size: 15px;
     padding-top: 5px;
@@ -354,14 +394,11 @@ footer {
 }
 
 .social-header-space {
-    font-weight: 300;
-    font-size: 15px;
-    margin-top: 18px;
+    margin-top: 20px;
 }
 
 
 .social-icon {
-    padding-bottom: 40px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -377,7 +414,7 @@ footer {
     line-height: 6px;
     text-align: center;
     color: #ffffff;
-    background: #5bc0dd;
+    background: #618686;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -385,7 +422,7 @@ footer {
 }
 
 .social-icon li a i:hover {
-    color: #5bc0dd;
+    color: #618686;
     background: #ffffff;
 }
 
@@ -403,27 +440,33 @@ footer {
 /* ____________________________________________________________ GoUp button */
 
 #myBtn {
-    display: none;
     position: fixed;
-    bottom: 110px;
-    right: 50px;
+    bottom: 90px;
+    right: 30px;
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #000000;
+    background-color: #618686;
     color: white;
     cursor: pointer;
-    border-radius: 10px;
-    line-height: 2;
-    font-size: 14px;
+    font-size: 25px;
+    line-height: 2.4;
+    font-weight: 500;
     width: 50px;
     height: 50px;
     margin: 0px auto;
-    border: 1px solid #ffffff;
+    opacity: 0.6;
 }
 
 #myBtn:hover {
-    color: #5bc0dd;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    #myBtn {
+        z-index: -99;
+        right: -100px;
+    }
 }
 
 
@@ -434,4 +477,16 @@ footer {
         float: left;
         padding-right: 15px;
     }
+}
+
+@media screen and (max-width: 992px) {
+    .info-box {
+        margin-top: 60px;
+        padding: 20px;
+        font-weight: 200;
+        background-color: #618686;
+        border: 1px solid #ffffff;
+        border-radius: 25px;
+    }
+
 }
