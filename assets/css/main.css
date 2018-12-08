@@ -24,6 +24,7 @@ h4 {
     margin: 0;
 }
 
+
 .container-fluid,
 .row {
     margin: 0 auto;
@@ -42,12 +43,15 @@ h4 {
     padding-bottom: 75px;
 }
 
-
 .section-main-title {
+    font-size: 30px;
+    font-weight: 400;
     color: #618686;
 }
 
 .section-title {
+    font-size: 15px;
+    font-weight: 200;
     margin-bottom: 30px;
 }
 
@@ -447,6 +451,16 @@ footer {
 .copyrights {
     font-weight: 200;
     margin-top: 20px;
+}
+
+.mail-to-me {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.mail-to-me:hover {
+    text-decoration: none;
+    color:#ffffff;
 }
 
 
