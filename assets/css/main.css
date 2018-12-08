@@ -42,6 +42,11 @@ h4 {
     padding-bottom: 75px;
 }
 
+
+.section-main-title {
+    color: #618686;
+}
+
 .section-title {
     margin-bottom: 30px;
 }
@@ -64,6 +69,7 @@ h4 {
     color: #ffffff;
     border-radius: 4px;
     background-color: #618686;
+    outline: none;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -85,6 +91,7 @@ h4 {
     background-color: #618686;
     border-radius: 4px;
     border: 0;
+    outline: none;
 }
 
 
@@ -331,6 +338,16 @@ audio {
 
 /* ____________________________________________________________ offer */
 
+
+
+
+
+
+
+
+
+
+
 /* ____________________________________________________________ contact */
 
 .info-box {
@@ -393,11 +410,6 @@ footer {
     margin-top: 30px;
 }
 
-.social-header-space {
-    margin-top: 20px;
-}
-
-
 .social-icon {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -432,29 +444,28 @@ footer {
     border-top: 1px solid #ffffff;
 }
 
-.footer2 h5 {
-    margin-top: 15px;
+.copyrights {
+    font-weight: 200;
+    margin-top: 20px;
 }
 
 
 /* ____________________________________________________________ GoUp button */
 
 #myBtn {
+    width: 40px;
+    height: 40px;
     position: fixed;
-    bottom: 90px;
+    bottom: 100px;
     right: 30px;
     z-index: 99;
     border: none;
-    outline: none;
     background-color: #618686;
     color: white;
     cursor: pointer;
-    font-size: 25px;
-    line-height: 2.4;
+    font-size: 20px;
     font-weight: 500;
-    width: 50px;
-    height: 50px;
-    margin: 0px auto;
+    outline: none;
     opacity: 0.6;
 }
 
@@ -470,7 +481,7 @@ footer {
 }
 
 
-/* ____________________________________________________________ media queries */
+/* ____________________________________________________________ Media queries */
 
 @media (min-width: 768px) {
     .navbar-nav>li {
