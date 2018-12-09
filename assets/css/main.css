@@ -185,7 +185,6 @@ h4 {
     margin-top: 60px;
 }
 
-
 .carousel-indicators {
     opacity: 0.5;
     position: absolute;
@@ -374,7 +373,6 @@ audio {
     margin-left: 20px;
 }
 
-
 /* ____________________________________________________________ contact */
 
 .info-box {
@@ -486,7 +484,6 @@ footer {
     color: #ffffff;
 }
 
-
 /* ____________________________________________________________ GoUp button */
 
 #myBtn {
@@ -516,7 +513,6 @@ footer {
         right: -100px;
     }
 }
-
 
 /* ____________________________________________________________ Media queries */
 
