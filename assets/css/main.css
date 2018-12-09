@@ -32,6 +32,8 @@ h4 {
 }
 
 .uppercase {
+    font-size: 18px;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -73,7 +75,7 @@ h4 {
     color: #ffffff;
     border-radius: 4px;
     background-color: #618686;
-    outline: none;
+    border: none;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -179,7 +181,7 @@ h4 {
 
 /* added from https://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp - carousel with javasctipt - bootstrap */
 
-#home {
+.home {
     margin-top: 60px;
 }
 
@@ -279,6 +281,14 @@ h4 {
 
 /* ____________________________________________________________ about us */
 
+#about {
+    background-color: #618686;
+}
+
+.invert {
+    color: #ffffff;
+}
+
 .about-top {
     text-align: center;
 }
@@ -288,6 +298,7 @@ h4 {
 }
 
 .card-aboutus {
+    max-width: 320px;
     height: auto;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -337,19 +348,31 @@ audio {
 .you-tube-video {
     min-width: 100%;
     height: 100%;
+}
 
+.you-tube-video iframe {
+    width: 100%;
+    height: 100%;
 }
 
 /* ____________________________________________________________ offer */
 
+.section-title-offer {
+    font-weight: 600;
+    margin-top: 10px
+}
 
+.label-danger {
+    margin-left: 20px;
+}
 
+.label-success {
+    margin-left: 20px;
+}
 
-
-
-
-
-
+.label-warning {
+    margin-left: 20px;
+}
 
 
 /* ____________________________________________________________ contact */
@@ -460,7 +483,7 @@ footer {
 
 .mail-to-me:hover {
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 
@@ -512,6 +535,13 @@ footer {
         background-color: #618686;
         border: 1px solid #ffffff;
         border-radius: 25px;
+    }
+
+    .you-tube-video {
+        margin-top: 60px;
+        min-width: 100%;
+        height: 100%;
+
     }
 
 }

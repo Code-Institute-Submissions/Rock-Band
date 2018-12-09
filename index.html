@@ -3,6 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
+
+    <!--<base href="http://karolsliwka.abovewave.co.uk"-->
+
+    <!-- my meta tags -->
+    <meta name="description" content="Website for 1st Milestone Project - Code Inistitute, Full Stack Developer Course">
+    <meta name="keywords" content="rock,rockband,band,concert,news,guitar,drumms,bass,vocalist,music,tickets,offers">
+    <meta name="author" content="Karol Sliwka">
+    <meta name="copyright" content="Karol Sliwka, hello@abovewave.co.uk">
+    <meta name="robots" content="index,follow" />
+    <!-- end of my meta tags -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- menu toggle collaps script from - https://www.codeply.com/go/XtiWqN3lGn -->
@@ -21,12 +32,14 @@
     <!-- ignore phone number -->
     <meta name="format-detection" content="telephone=no">
 
+    <!-- website browser title -->
+    <title>RockBand One Page</title>
 
-    <title>RockBand - Onepage</title>
 </head>
 
 <body>
-
+    <!-- top of the page -->
+    <div id="home"></div>
     <!-- Header -->
     <header class="container-fluid">
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -56,7 +69,7 @@
         </nav>
     </header>
     <!-- top slider -->
-    <section id="home"></section>
+    <section class="home"></section>
     <section class="container-fluid">
         <div class="row">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -103,13 +116,15 @@
         </div>
     </section>
     <!-- News -->
-
     <section id="news" class="container-fluid section-top">
         <div class="row">
             <div class="container">
                 <div class="text-center">
+                    <!-- section main title -->
                     <h2 class="section-main-title">Latest News</h2>
+                    <!-- second title -->
                     <p class="section-title">Always want to get the latest news, sign up for our newsletter.</p>
+                    <!-- subscribe button -->
                     <button class="btn btn-subscribe">Subscribe Newsletter !</button>
                 </div>
             </div>
@@ -130,10 +145,10 @@
                         <!-- Card content -->
                         <div class="card-body elegant-color white-text rounded-bottom">
                             <!-- Title -->
-                            <h4 class="card-title">Card title</h4>
+                            <h4 class="card-title uppercase">New CD in vinyl release</h4>
                             <hr class="hr-light">
                             <!-- Text -->
-                            <p class="card-text white-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text white-text mb-4">Our new album is going to be released once again, this time as a Vinyl. There's going to be only 2000 copies available to buy..</p>
                             <!-- Link -->
                             <a href="#!" class="white-text d-flex justify-content-end">
                                 <button class="btn btn-primary">Read more..</button>
@@ -155,10 +170,10 @@
                         <!-- Card content -->
                         <div class="card-body elegant-color white-text rounded-bottom">
                             <!-- Title -->
-                            <h4 class="card-title">Card title</h4>
+                            <h4 class="card-title uppercase">Concert with the orchestra</h4>
                             <hr class="hr-light">
                             <!-- Text -->
-                            <p class="card-text white-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text white-text mb-4">The upcoming concert with the participation of the orchestra requires many sacrifices from us, which is why we are forced to cancel..</p>
                             <!-- Link -->
                             <a href="#!" class="white-text d-flex justify-content-end">
                                 <button class="btn btn-primary">Read more..</button>
@@ -180,10 +195,10 @@
                         <!-- Card content -->
                         <div class="card-body elegant-color white-text rounded-bottom">
                             <!-- Title -->
-                            <h4 class="card-title">Card title</h4>
+                            <h4 class="card-title uppercase">Arizona 2019</h4>
                             <hr class="hr-light">
                             <!-- Text -->
-                            <p class="card-text white-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text white-text mb-4">We are pleased to announce that we are going to be the judges at the Rock Festival in Arizona on..</p>
                             <!-- Link -->
                             <a href="#!" class="white-text d-flex justify-content-end">
                                 <button class="btn btn-primary">Read more..</button>
@@ -205,10 +220,10 @@
                         <!-- Card content -->
                         <div class="card-body elegant-color white-text rounded-bottom">
                             <!-- Title -->
-                            <h4 class="card-title">Card title</h4>
+                            <h4 class="card-title uppercase">Rock & Roll Picnic</h4>
                             <hr class="hr-light">
                             <!-- Text -->
-                            <p class="card-text white-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text white-text mb-4">21st - 23rd March 2019 Rock and Roll picknick in USA..</p>
                             <!-- Link -->
                             <a href="#!" class="white-text d-flex justify-content-end">
                                 <button class="btn btn-primary">Read more..</button>
@@ -220,15 +235,14 @@
             </div>
         </div>
     </section>
-
-    <!-- About Us in progress -->
+    <!-- About -->
     <section id="about" class="container-fluid section-top">
         <!-- top container -->
         <div class="row about-top">
             <div class="container">
                 <div class="text-center">
                     <!-- section main title -->
-                    <h2 class="section-main-title">About Us</h2>
+                    <h2 class="section-main-title invert">About Us</h2>
                     <!-- second title -->
                     <p class="section-title">Want to know more aobut RockBand ? Here You can find some interesting information.</p>
                 </div>
@@ -260,7 +274,7 @@
                             <h5 class="card-aboutus-name">Tonny</h5>
                             <hr>
                             <!-- Quotation -->
-                            <p class="card-aboutus-text">J</p>
+                            <p class="card-aboutus-text">"Never know how to sing until he starts to sing with birdss"</p>
                         </div>
                     </div>
                     <!-- Card -->
@@ -281,7 +295,7 @@
                             <h5 class="card-aboutus-name">Eddy</h5>
                             <hr>
                             <!-- Quotation -->
-                            <p class="card-aboutus-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                            <p class="card-aboutus-text">"He pretends all the time, that he's a dancing queen"</p>
                         </div>
                     </div>
                     <!-- Card -->
@@ -302,7 +316,7 @@
                             <h5 class="card-aboutus-name">Jhon</h5>
                             <hr>
                             <!-- Quotation -->
-                            <p class="card-aboutus-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                            <p class="card-aboutus-text">"Our Mr. Trouble, one of the best bass players in all UK"</p>
                         </div>
                     </div>
                     <!-- Card -->
@@ -323,7 +337,7 @@
                             <h5 class="card-aboutus-name">Steve</h5>
                             <hr>
                             <!-- Quotation -->
-                            <p class="card-aboutus-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                            <p class="card-aboutus-text">"Never stop playing on drums, even empty glasses aren't safe"</p>
                         </div>
                     </div>
                     <!-- Card -->
@@ -331,9 +345,7 @@
             </div>
         </div>
     </section>
-
-    <!-- Media in progress -->
-
+    <!-- Media -->
     <section id="music" class="container-fluid section-top">
         <div class="row">
             <div class="container">
@@ -350,67 +362,97 @@
                     <div>
                         <h5 class="">Foo Fighters - My Hero</h5>
                         <audio controls>
-                            <source src="https://4.cdn.mp3xa.pw/proxy/cs1-61v4.vkuseraudio.net/p15/66614ff5d9068b.mp3?title=Foo Fighters - My Hero" type="audio/ogg">
+                            <source src="https://4.cdn.mp3xa.pw/proxy/cs1-61v4.vkuseraudio.net/p15/66614ff5d9068b.mp3?title=Foo Fighters - My Hero" type="audio/mp3">
                         </audio>
                     </div>
                     <div>
                         <h5 class="">Foo Fighters - The Pretender</h5>
                         <audio controls>
-                            <source src="https://7.cdn.mp3xa.pw/proxy/cs9-17v4.vkuseraudio.net/p3/d9788afdfee0a6.mp3?title=Foo Fighters - The Pretender" type="audio/ogg">
+                            <source src="https://7.cdn.mp3xa.pw/proxy/cs9-17v4.vkuseraudio.net/p3/d9788afdfee0a6.mp3?title=Foo Fighters - The Pretender" type="audio/mp3">
 
                         </audio>
                     </div>
                     <div>
                         <h5 class="">Foo Fighters - Best Of You</h5>
                         <audio controls>
-                            <source src="https://2.cdn.mp3xa.pw/proxy/cs1-60v4.vkuseraudio.net/p19/ed3a6f30160762.mp3?title=Foo Fighters - Best of You" type="audio/ogg">
+                            <source src="https://2.cdn.mp3xa.pw/proxy/cs1-60v4.vkuseraudio.net/p19/ed3a6f30160762.mp3?title=Foo Fighters - Best of You" type="audio/mp3">
 
                         </audio>
                     </div>
                     <div>
                         <h5 class="">Foo Fighters - Learn To Fly</h5>
                         <audio controls>
-                            <source src="https://6.cdn.mp3xa.pw/proxy/cs9-3v4.vkuseraudio.net/p1/4bee8e1ed313b7.mp3?title=Foo Fighters - Learn to Fly" type="audio/ogg">
+                            <source src="https://6.cdn.mp3xa.pw/proxy/cs9-3v4.vkuseraudio.net/p1/4bee8e1ed313b7.mp3?title=Foo Fighters - Learn to Fly" type="audio/mp3">
                         </audio>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="you-tube-video">
-                        <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/bf2LDmkzmwo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="section-title">Our New Signle Video</p>
+                        <iframe src="https://www.youtube.com/embed/TRqiFPpw2fY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
-
     <!-- Offer in progress -->
-
     <section id="offer" class="container-fluid section-top">
         <div class="row">
-            <div class="container">
-                <div class="text-center">
+            <div class="container text-center">
+                <div class="row">
                     <h2 class="section-main-title">Offer</h2>
-                    <p class="section-title">New songs and videos always on time!</p>
+                    <p class="section-title">Check our best deals!</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4"><i class="glyphicon glyphicon-tags"></i><span class="label label-danger">Last tickets !</span>
+                        <p class="section-title-offer">London - 21st January 2019<br>( 21 tickets left )</p>
+                    </div>
+                    <div class="col-sm-8 col-md-8">
+                        <p class="card-aboutus-text">21 tickets left, for our Concert in London at 21st January 2019.<br> We lower the price from £45 to only £30!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4"><i class="glyphicon glyphicon-tags"></i><span class="label label-success">Best offer !</span>
+                        <p class="section-title-offer">Arizona 2019 tickets available</p>
+                    </div>
+                    <div class="col-sm-8 col-md-8">
+                        <p class="card-aboutus-text">Buy family package ( 5 tickets) and get special gift and get free meal for each.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4"><i class="glyphicon glyphicon-tags"></i>
+                        <p class="section-title-offer">Special recording session tickets</p>
+                    </div>
+                    <div class="col-sm-8 col-md-8">
+                        <p class="card-aboutus-text">Only 50 tickets for special recording session with RockBand for our lovely Funs!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4"><i class="glyphicon glyphicon-calendar"></i>
+                        <p class="section-title-offer">1st June - 31st September 2019</p>
+                    </div>
+                    <div class="col-sm-8 col-md-8">
+                        <p class="card-aboutus-text">From 1st June to 31st September 2019 we're free for you, to make bookings.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4"><i class="glyphicon glyphicon-piggy-bank"></i><span class="label label-warning">Save!</span>
+                        <p class="section-title-offer">Save money and time using contact us form</p>
+                    </div>
+                    <div class="col-sm-8 col-md-8">
+                        <p class="card-aboutus-text">Sent as many queries as you like and ask for events, tickets, or fun club gifts.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4"><i class="glyphicon glyphicon-piggy-bank"></i><span class="label label-warning">Save!</span>
+                        <p class="section-title-offer">15th April Special offer!</p>
+                    </div>
+                    <div class="col-sm-8 col-md-8">
+                        <p class="card-aboutus-text">Book special party or special event on 15th April 2019 and pay half price.<br>Get 100 club t-shirts, hats and more more more goods in price.</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- main container -->
-        <div class="container">
-            <div class="col-sm-6 col-md-6">
-
-            </div>
-            <div class="col-sm-6 col-md-6">
-
-            </div>
-            <div class="col-sm-6 col-md-6">
-
-            </div>
-            <div class="col-sm-6 col-md-6">
-
-            </div>
-        </div>
-
     </section>
     <!-- Contact -->
     <section id="contact" class="container-fluid section-top">
@@ -523,7 +565,7 @@
             <div class="row footer2">
                 <div>
                     <!-- copyrights and email-me -->
-                    <h5 class="text-center social-header copyrights">2018 &#x24D2; All rights reserved | <a href="mailto:hello@abovewave.co.uk" class="mail-to-me">Karol Sliwka</a></h5>
+                    <h5 class="text-center social-header copyrights">2018 &#x24D2; All rights reserved | <a href="mailto:hello@abovewave.co.uk" class="mail-to-me">RockBand</a></h5>
                 </div>
             </div>
         </div>
