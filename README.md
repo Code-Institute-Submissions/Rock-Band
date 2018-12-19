@@ -3,7 +3,7 @@ RockBand website
 
 <img src="http://karolsliwka.abovewave.co.uk/assets/mypage_top.jpg" style="widt:100%;">
 
-<a href="http://www.karolsliwka.abovewave.co.uk" target="_blank">
+<a href="http://www.karolsliwka.abovewave.co.uk">
     <img src="https://www.dwarka-smartcity.com/wp-content/uploads/2017/05/visit-website-button.png" width="20%">
 </a>
 
@@ -19,16 +19,16 @@ All buttons and forms are inactive.
 ## Programming Languages Used
 <div style="margin-top:40px; margin-bottom:40px;">
 <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2880px-HTML5_logo_and_wordmark.svg.png" style="vertical-align:middle; margin-right:10px; width:150px; height:150px">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2880px-HTML5_logo_and_wordmark.svg.png"  width="150" height="150">
 </a>
 <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3" target="_blank">
-    <img src="https://www.lifewire.com/thmb/s9kfBeuaF14VAGgE-SjDB-L0ZDs=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/css3-57b597e85f9b58b5c2b338de.png" style="vertical-align:middle; margin-right:10px; width:150px; height:150px">
+    <img src="https://www.lifewire.com/thmb/s9kfBeuaF14VAGgE-SjDB-L0ZDs=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/css3-57b597e85f9b58b5c2b338de.png" width="150" height="150">
 </a>
 <a href="https://en.wikipedia.org/wiki/JQuery" target="_blank">
-    <img src="http://pluspng.com/img-png/jquery-logo-vector-png-download-free-jquery-vector-logo-500.jpg" style="vertical-align:middle; margin-right:10px; width:250px; height:150px">
+    <img src="http://pluspng.com/img-png/jquery-logo-vector-png-download-free-jquery-vector-logo-500.jpg" width="250" height="150">
 </a>
 <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png" style="vertical-align:middle; margin-right:10px; width:150px; height:150px">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"  width="150" height="150">
 </a>
 </div>
 
@@ -36,17 +36,17 @@ All buttons and forms are inactive.
 <ul style="list-style:none;">
     <li>    
         <a href="https://www.bootstrapcdn.com/" style="text-decoration:none;" target="_blank">
-            <img src="https://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png" style="vertical-align:middle; margin-bottom:10px; width:50px; height:50px;">&nbsp;&nbsp;Bootstrap v3.7 (+ v4.0)
+            <img src="https://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png" style="vertical-align:middle; margin-bottom:10px;" width="50" height"50" >&nbsp;&nbsp;Bootstrap v3.7 (+ v4.0)
         </a>
     </li>
     <li>
         <a href="https://www.bootstrapcdn.com/" style="text-decoration:none;" target="_blank">
-            <img src="https://www.bootstrapcdn.com/assets/img/og.dd30b10.png" style="vertical-align:middle; margin-bottom:10px; width:50px; height:50px;">&nbsp;&nbsp;BootstrapCDN
+            <img src="https://www.bootstrapcdn.com/assets/img/og.dd30b10.png" style="vertical-align:middle; margin-bottom:10px;" width="50" height"50" >&nbsp;&nbsp;BootstrapCDN
         </a>
     </li>
     <li>
         <a href="https://www.bootstrapcdn.com/" style="text-decoration:none;" target="_blank">
-            <img src="http://karolsliwka.abovewave.co.uk/assets/hovercss.jpg" style="vertical-align:middle; margin-bottom:10px; width:150px; height:30px;">&nbsp;&nbsp;Hover.css Library
+            <img src="http://karolsliwka.abovewave.co.uk/assets/hovercss.jpg" style="vertical-align:middle; margin-bottom:10px;" width="200" height"50" >&nbsp;&nbsp;Hover.css Library
         </a>
     </li>
 </ul>
