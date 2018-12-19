@@ -4,7 +4,7 @@ RockBand website
 <img src="http://karolsliwka.abovewave.co.uk/assets/mypage_top.jpg" style="widt:100%;">
 
 <a href="http://www.karolsliwka.abovewave.co.uk" target="_blank">
-    <img src="https://www.dwarka-smartcity.com/wp-content/uploads/2017/05/visit-website-button.png" style="width:20%;">
+    <img src="https://www.dwarka-smartcity.com/wp-content/uploads/2017/05/visit-website-button.png" width="20%">
 </a>
 
 
