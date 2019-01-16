@@ -74,4 +74,4 @@ I changed the browser size to see how all elements interact with each other and 
 This project was developed in Cloud9 IDE.
 
 ## Contact
-e-mail address : hello@abovewave.co.uk
+e-mail address : hello@abovewave.co.uk# rockband.github.io
