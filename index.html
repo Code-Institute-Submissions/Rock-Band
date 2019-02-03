@@ -16,12 +16,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- menu toggle collaps script from - https://www.codeply.com/go/XtiWqN3lGn -->
-    <meta name="description" content="Method using jQuery $('.navbar-collapse').collapse('hide') to close the Navbar links after click.">
     <!-- standard links to bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- link to hover.css library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <!-- two links to run top slider carouse from - https://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp -->
@@ -71,7 +68,9 @@
         </nav>
     </header>
     <!-- top slider -->
-    <section class="home"></section>
+    <section class="topbar-top">
+        <h2 class="hidden">Home</h2>
+    </section>
     <section class="container-fluid">
         <div class="row">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -152,9 +151,7 @@
                             <!-- Text -->
                             <p class="card-text white-text mb-4">Our new album is going to be released once again, this time as a Vinyl. There's going to be only 2000 copies available to buy..</p>
                             <!-- Link -->
-                            <a href="#!" class="white-text d-flex justify-content-end">
-                                <button class="btn btn-primary">Read more..</button>
-                            </a>
+                            <button class="btn btn-primary">Read more..</button>
                         </div>
                     </div>
                     <!-- Card Dark -->
@@ -177,9 +174,7 @@
                             <!-- Text -->
                             <p class="card-text white-text mb-4">The upcoming concert with the participation of the orchestra requires many sacrifices from us, which is why we are forced to cancel..</p>
                             <!-- Link -->
-                            <a href="#!" class="white-text d-flex justify-content-end">
-                                <button class="btn btn-primary">Read more..</button>
-                            </a>
+                            <button class="btn btn-primary">Read more..</button>
                         </div>
                     </div>
                     <!-- Card Dark -->
@@ -202,9 +197,7 @@
                             <!-- Text -->
                             <p class="card-text white-text mb-4">We are pleased to announce that we are going to be the judges at the Rock Festival in Arizona on..</p>
                             <!-- Link -->
-                            <a href="#!" class="white-text d-flex justify-content-end">
-                                <button class="btn btn-primary">Read more..</button>
-                            </a>
+                            <button class="btn btn-primary">Read more..</button>
                         </div>
                     </div>
                     <!-- Card Dark -->
@@ -227,9 +220,7 @@
                             <!-- Text -->
                             <p class="card-text white-text mb-4">21st - 23rd March 2019 Rock and Roll picknick in USA..</p>
                             <!-- Link -->
-                            <a href="#!" class="white-text d-flex justify-content-end">
-                                <button class="btn btn-primary">Read more..</button>
-                            </a>
+                            <button class="btn btn-primary">Read more..</button>
                         </div>
                     </div>
                     <!-- Card Dark -->
@@ -365,35 +356,35 @@
                 <div class="col-md-6">
                     <div>
                         <!-- song author and title -->
-                        <h5 class="">Foo Fighters - My Hero</h5>
+                        <h5 class="">Clarksville</h5>
                         <audio controls>
                             <!-- song url -->
-                            <source src="https://4.cdn.mp3xa.pw/proxy/cs1-61v4.vkuseraudio.net/p15/66614ff5d9068b.mp3?title=Foo Fighters - My Hero" type="audio/mp3">
+                            <source src="assets/audio/Clarksville.mp3" type="audio/mp3">
                         </audio>
                     </div>
                     <div>
                         <!-- song author and title -->
-                        <h5 class="">Foo Fighters - The Pretender</h5>
+                        <h5 class="">Daydream believer</h5>
                         <audio controls>
                             <!-- song url -->
-                            <source src="https://7.cdn.mp3xa.pw/proxy/cs9-17v4.vkuseraudio.net/p3/d9788afdfee0a6.mp3?title=Foo Fighters - The Pretender" type="audio/mp3">
+                            <source src="assets/audio/DaydreamBeliever.mp3" type="audio/mp3">
 
                         </audio>
                     </div>
                     <div>
                         <!-- song author and title -->
-                        <h5 class="">Foo Fighters - Best Of You</h5>
+                        <h5 class="">Im a believer</h5>
                         <audio controls>
                             <!-- song url -->
-                            <source src="https://2.cdn.mp3xa.pw/proxy/cs1-60v4.vkuseraudio.net/p19/ed3a6f30160762.mp3?title=Foo Fighters - Best of You" type="audio/mp3">
+                            <source src="assets/audio/ImABeliever.mp3" type="audio/mp3">
                         </audio>
                     </div>
                     <div>
                         <!-- song author and title -->
-                        <h5 class="">Foo Fighters - Learn To Fly</h5>
+                        <h5 class="">Stepping stone</h5>
                         <audio controls>
                             <!-- song url -->
-                            <source src="https://6.cdn.mp3xa.pw/proxy/cs9-3v4.vkuseraudio.net/p1/4bee8e1ed313b7.mp3?title=Foo Fighters - Learn to Fly" type="audio/mp3">
+                            <source src="assets/audio/SteppingStone.mp3" type="audio/mp3">
                         </audio>
                     </div>
                 </div>
@@ -402,7 +393,7 @@
                         <!-- second title -->
                         <p class="section-title">Our New Single Video</p>
                         <!-- song url /yooutube iframe -->
-                        <iframe src="https://www.youtube.com/embed/TRqiFPpw2fY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/TRqiFPpw2fY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -564,7 +555,7 @@
                         <div class="float-left">
                             <!-- newsletter sign up form -->
                             <form>
-                                <input type="text" name="emailaddress" class="form-control newsletter-email" id="emailaddress" placeholder="Email address" required/>
+                                <input type="text" name="emailaddress" class="form-control newsletter-email" id="footer-email" placeholder="Email address" required/>
                                 <button type="submit" class="form-control float-right btn newsletter-btn">Sign up!</button>
                             </form>
                         </div>
@@ -598,7 +589,7 @@
         </div>
     </footer>
     <!-- all scripts JavaScript and jQuery -->
-    <!-- button and scirpt from -- https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+    <!-- button and scirpt from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
@@ -619,7 +610,7 @@
             document.documentElement.scrollTop = 0;
         }
         // menu toggle collaps script from - https://www.codeply.com/go/XtiWqN3lGn //
-        $('.navbar-nav>li>a').on('click', function() {
+        $('.navbar-nav>li>a').on('click', function($) {
             $('.navbar-collapse').collapse('hide');
         });
     </script>
