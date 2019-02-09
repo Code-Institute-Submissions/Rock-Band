@@ -27,7 +27,3 @@ http://www.karolsliwka.abovewave.co.uk
 * [jQery](https://en.wikipedia.org/wiki/JQuery)
 * [Bootstrap (v3.7)](https://getbootstrap.com/docs/3.3/)
 
-
-#
-
-* for any questions or cooperation 
