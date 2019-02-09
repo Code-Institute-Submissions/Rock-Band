@@ -12,10 +12,11 @@ http://www.karolsliwka.abovewave.co.uk
 
 
 # Content
-Whole text of website was created and written by myself - Karol Sliwka</br>
-Media :</br>
-Audio files used in this project are from Code Institute assets for this course. - [assets](https://github.com/Code-Institute-Org/project-assets) </br>
-Photos used in this project are frome certain pages searched by GoogleImageSearch
+> Whole text of website was created and written by myself - Karol Sliwka</br>
+ 
+> Media </br>
+* Audio files used in this project are from Code Institute assets for this course. - [assets](https://github.com/Code-Institute-Org/project-assets) </br>
+* Photos used in this project are frome certain pages searched by GoogleImageSearch
  
 
 
