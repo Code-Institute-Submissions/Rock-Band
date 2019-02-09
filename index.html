@@ -3,9 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-
-    <!--<base href="http://karolsliwka.abovewave.co.uk"-->
-
     <!-- my meta tags -->
     <meta name="description" content="Website for 1st Milestone Project - Code Inistitute, Full Stack Developer Course">
     <meta name="keywords" content="rock,rockband,band,concert,news,guitar,drumms,bass,vocalist,music,tickets,offers">
@@ -13,7 +10,6 @@
     <meta name="copyright" content="Karol Sliwka, hello@abovewave.co.uk">
     <meta name="robots" content="index,follow" />
     <!-- end of my meta tags -->
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- standard links to bootstrap -->
@@ -21,14 +17,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <!-- link to hover.css library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <!-- two links to run top slider carouse from - https://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- link to my personal css file -->
     <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
     <!-- ignore phone number -->
     <meta name="format-detection" content="telephone=no">
-
     <!-- website browser title -->
     <title>RockBand One Page</title>
 
@@ -126,7 +118,7 @@
                     <!-- second title -->
                     <p class="section-title">Always want to get the latest news, sign up for our newsletter.</p>
                     <!-- subscribe button -->
-                    <button class="btn btn-subscribe">Subscribe Newsletter !</button>
+                    <button class="btn btn-subscribe">Subscribe Newsletter</button>
                 </div>
             </div>
         </div>
@@ -393,7 +385,7 @@
                         <!-- second title -->
                         <p class="section-title">Our New Single Video</p>
                         <!-- song url /yooutube iframe -->
-                        <iframe src="https://www.youtube.com/embed/TRqiFPpw2fY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/TRqiFPpw2fY" title="FooFightersYouTubeVideo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -555,7 +547,7 @@
                         <div class="float-left">
                             <!-- newsletter sign up form -->
                             <form>
-                                <input type="text" name="emailaddress" class="form-control newsletter-email" id="footer-email" placeholder="Email address" required/>
+                                <input type="text" name="emailaddress" class="form-control newsletter-email" placeholder="Email address" required/>
                                 <button type="submit" id="news_button" class="form-control float-right btn newsletter-btn">Sign up!</button>
                             </form>
                         </div>
@@ -566,15 +558,15 @@
                         <h6 class="social-header">Find Us on social media :</h6>
                         <!-- list of social media icons -->
                         <ul class="list-inline social-icon">
-                            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <!-- link hidden - for future needs -->
-                            <li class="sr-only"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li class="sr-only"><a href="#"><i class="fa fa-instagram"></i></a></li>
                             <!-- link hidden - for future needs -->
-                            <li class="sr-only"><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                            <li class="sr-only"><a href="#"><i class="fa fa-pinterest"></i></a></li>
                             <!-- link hidden - for future needs -->
-                            <li class="sr-only"><a href="#" target="_blank"><i class="fa fa-snapchat"></i></a></li>
+                            <li class="sr-only"><a href="#"><i class="fa fa-snapchat"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -592,29 +584,9 @@
     <!-- button and scirpt from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
     <script type="text/javascript" src="script/script.js"></script>
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
-    <script>
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() { scrollFunction() };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("myBtn").style.display = "block";
-            }
-            else {
-                document.getElementById("myBtn").style.display = "none";
-            }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-        // menu toggle collaps script from - https://www.codeply.com/go/XtiWqN3lGn //
-        $('.navbar-nav>li>a').on('click', function($) {
-            $('.navbar-collapse').collapse('hide');
-        });
-    </script>
+    <!-- two links to run top slider carouse from - https://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
