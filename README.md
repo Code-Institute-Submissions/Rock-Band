@@ -5,8 +5,10 @@
     <img src="https://www.dwarka-smartcity.com/wp-content/uploads/2017/05/visit-website-button.png" width="20%">
 </a>
 
-> If button doesn't work click on link below, to visit the RockBand website
-http://www.karolsliwka.abovewave.co.uk
+
+> If button doesn't work click on link below or use GitHub Pages link, to visit the RockBand website
+http://www.karolsliwka.abovewave.co.uk</br>
+[GitHub Pages](https://karolsliwka.github.io/Rock-Band/)
 
 > This is a First Milestone Project for [Code Institute](https://codeinstitute.net/) Full Stack Developer Course
 
