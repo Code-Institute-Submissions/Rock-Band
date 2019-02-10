@@ -19,6 +19,11 @@
 * [jQery](https://en.wikipedia.org/wiki/JQuery)
 * [Bootstrap (v3.7)](https://getbootstrap.com/docs/3.3/)
 
+
+### Styling
+>   Simple and clear one page style, separated sections, colored headers,</br>contrasting text on dark background.</br> Smooth website scroll and "goBack" button asside, created to get better user experience.
+
+
 ### Sections ( pages )
 > Home
 >    - Button/Link to go back to the top of the page. No content in this section.
