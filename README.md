@@ -10,16 +10,41 @@
 http://www.karolsliwka.abovewave.co.uk</br>
 [GitHub Pages](https://karolsliwka.github.io/Rock-Band/)
 
-> This is a First Milestone Project for [Code Institute](https://codeinstitute.net/) Full Stack Developer Course
-
+> This is a First Milestone Project for [Code Institute](https://codeinstitute.net/) Full Stack Developer Course</br>
+> Website is about the rock band from 1960's.
 
 # Content
 > Whole text of website was created and written by myself - Karol Sliwka</br>
+>
+>
+> Photos used in this project are from certain pages searched via [GoogleImageSearch](https://www.google.com/advanced_image_search)
+
+1. Carousel
+
+    [image 1]()</br>
+    [image 2]()</br>
+    [image 3]()
+
+2. News
+
+    [image 1]()</br>
+    [image 2]()</br>
+    [image 3]()</br>
+    [image 4]()
+
+3. AboutUs
+
+    [image 1]()</br>
+    [image 2]()</br>
+    [image 3]()</br>
+    [image 4]()
+ 
  
 > Media </br>
-* Audio files used in this project are from Code Institute assets for this course. - [assets](https://github.com/Code-Institute-Org/project-assets) </br>
-* Photos used in this project are frome certain pages searched by GoogleImageSearch
- 
+* Audio files used in this project are from Code Institute assets for this course
+
+    - [Code Institute Assets](https://github.com/Code-Institute-Org/project-assets) </br>
+
 
 
 # Technologies Used
