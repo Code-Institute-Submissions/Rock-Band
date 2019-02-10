@@ -1,27 +1,23 @@
 # RockBand 
 <img src="http://karolsliwka.abovewave.co.uk/mypage_top.jpg" style="widt:100%;">
 
-<a href="http://www.karolsliwka.abovewave.co.uk">
-    <img src="https://www.dwarka-smartcity.com/wp-content/uploads/2017/05/visit-website-button.png" width="20%">
-</a>
-
-> If button doesn't work use GitHub Pages link, to visit the RockBand website.</br>
-[GitHub Pages](https://karolsliwka.github.io/Rock-Band/)
-
 > This is a First Milestone Project for [Code Institute](https://codeinstitute.net/) Full Stack Developer Course.</br>
 > Website is about the rock band from 1960's.
 > Static website with responsive,</br> clear and simply design (front-end only).
 
 ### Technologies Used
-* [HTML5](https://en.wikipedia.org/wiki/HTML5)
-* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+> Languages
+* [HTML](https://en.wikipedia.org/wiki/HTML5)
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+> Frameworks / Libraries
 * [jQery](https://en.wikipedia.org/wiki/JQuery)
-* [Bootstrap (v3.7)](https://getbootstrap.com/docs/3.3/)
+* [Bootstrap 3.7](https://getbootstrap.com/docs/3.3/)
 
 
 ### Styling
->   Simple and clear one page style, separated sections, colored headers,</br>contrasting text on dark background.</br> Smooth website scroll and "goBack" button asside, created to get better user experience.
+>   Simple and clear one page style, separated sections, colored headers,</br>contrasting text on dark background.</br> Smooth website scroll and "goBack" button created to be more user friendly.
 
 
 ### Sections ( pages )
