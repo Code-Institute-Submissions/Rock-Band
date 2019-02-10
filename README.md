@@ -36,7 +36,7 @@
         }
 ```
 * Carousel at the top of website was created based on code from - [w3schools](https://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp)
-* Menu toggle collaps script from - [Codeply](https://www.codeply.com/go/XtiWqN3lGn)
+* Menu toggle collaps script from [Codeply](https://www.codeply.com/go/XtiWqN3lGn) used to make the navigation bar simple and easy to use while displayed on small devices.
 * Audio and Video files allows users to listen music and watch videos by pressing play button.
 * Contact form is making easy way to contact the band by the fans and make all enquiries.
 
