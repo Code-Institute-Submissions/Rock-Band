@@ -17,13 +17,14 @@ http://www.karolsliwka.abovewave.co.uk</br>
 > Whole text of website was created and written by myself - Karol Sliwka</br>
 >
 >
-> Photos used in this project are from certain pages searched via [GoogleImageSearch](https://www.google.com/advanced_image_search)
-
+> Photos used in this project are from certain pages searched via [GoogleImageSearch](https://www.google.com/advanced_image_search)</br>
+    List of all images and url adresses to download/use photos
+    
 1. Carousel
 
-    [image 1]()</br>
-    [image 2]()</br>
-    [image 3]()
+    - Berlin [image 1](https://pxhere.com/en/photo/1055770)</br>
+    - Spain [image 2](https://pixabay.com/pl/koncert-t%C5%82um-grupy-odbiorc%C3%B3w-ludzie-768722/)</br>
+    - Sweden [image 3](https://pxhere.com/en/photo/115544)
 
 2. News
 
@@ -34,10 +35,10 @@ http://www.karolsliwka.abovewave.co.uk</br>
 
 3. AboutUs
 
-    [image 1]()</br>
-    [image 2]()</br>
-    [image 3]()</br>
-    [image 4]()
+    - Vocal : [image 1]()</br>
+    - Guitar : [image 2](https://pixabay.com/pl/gitara-gitara-gracz-muzyk-670087/)</br>
+    - Bass : [image 3](https://pxhere.com/en/photo/978908)</br>
+    - Drums : [image 4]()
  
  
 > Media </br>
