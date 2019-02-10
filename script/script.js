@@ -16,6 +16,8 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 // menu toggle collaps script from - https://www.codeply.com/go/XtiWqN3lGn //
-$('.navbar-nav>li>a').on('click', function($) {
+function collapseToggle(){
+$('.navbar-nav>li>a').on('click', function() {
     $('.navbar-collapse').collapse('hide');
 });
+}
