@@ -10,7 +10,7 @@
 
 > This is a First Milestone Project for [Code Institute](https://codeinstitute.net/) Full Stack Developer Course.</br>
 > Website is about the rock band from 1960's.
-> Static website with responsive, clear and simply design (front-end only).
+> Static website with responsive,</br> clear and simply design (front-end only).
 
 ### Technologies Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -21,18 +21,27 @@
 
 ### Sections ( pages )
 > Home
+>    - Button/Link to go back to the top of the page. No content in this section.
     
 > News
+>   - All the latest news about the RockBand, such as new album/s or song/s,</br>concert tours and special events.
 
 > About
+>   - Short story about RockBand in top part of section.</br> Team members presented in separated cards with photos, names and roles.
 
 > Music
+>   - Section splited for two parts. In left side user can find the audio files to listen, specialy picked songs. Right side of the section was prepared to place the newest videoclips to be watched by fans.
+
+> Offer
+>   - The best saving offers and deals for upcoming events and concerts, specially prepared for fans.
 
 > Contact
+ >   - All necesery infmoration about RockBand office, contact form and neswletter subscribe field.
+
 
 
 ### Content
-> Whole text of website was created and written by myself - Karol Sliwka</br>
+> Whole website text was created and written by myself (Karol Sliwka).</br>
 >
 >
 > Photos used in this project are from certain pages searched via [GoogleImageSearch](https://www.google.com/advanced_image_search)</br>
