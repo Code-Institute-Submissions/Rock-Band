@@ -70,9 +70,17 @@ Sections ( pages )
 
 
 
-##  Testing
+## Testing
 
+## Deployment
+> This website is hosted and deployed from master branch to GitHub Pages.</br>
 
+* How to deployed website on Github Pages.
+>
+    - Click on name of repository that you want to deployed.
+    - On the top bar click on "Settings".
+    - Scroll down to GitHub Pages and from source dropdown list choose "Master branch".
+    - Create the name for your deployed website and click on "Save" button.
 
 ## Credits
 > Whole website text was created and written by myself (Karol Sliwka).</br>
@@ -113,3 +121,5 @@ Sections ( pages )
 * YouTube video ( iframe ) - video used/shared from Foo Fighters YouTube channel.
     - [Foo Fighters YouTube Channel](https://www.youtube.com/channel/UCi2KNss4Yx73NG0JARSFe0A)
     - [Foo Fighters - The Sky Is A Neighborhood (Official Music Video)](https://www.youtube.com/embed/TRqiFPpw2fY")
+    
+##### *All assets have been used for educational purposes
