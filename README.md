@@ -64,7 +64,7 @@
 ### Styling
 >   Simple and clear one page style, separated sections, colored headers,
 contrasting text on dark background.
-Smooth website scroll and "goBack" button created to be more user friendly.
+Smooth website scroll and "goToTheTop" button created to be more user friendly.
 
 
 ### Pages/Sections
