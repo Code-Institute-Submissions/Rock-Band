@@ -121,9 +121,13 @@ On each viewport widths I was clicking on all buttons and links to see how they 
 By clicking on the links in the navigation bar, the smooth scrollFunction will work correctly on all viewport sizes. No clicking order needed.
 Toggle button collapse correctly by clicking on "hamburger button" or by clicking on menu links on all viewport sizes.
 
-Contact form required fields are: Nam and Surname, E-mail Address and Message. The 'required' attribute is added to them so they will not allowed you to submit form before filling them.
+Contact form required fields are: Nam and Surname, E-mail Address and Message. The 'required' attribute is added to them and to Email Address field on the bottom of the page ( newsletter subscription ).They will not allowed you to submit form before filling them.
 When you try to submit the contact form without filling any of input boxes. You will se the message on the top of empty input box says, "! Please fill in this field.".
 Mouse cursor will be automatically focus in empty input box.
+
+To see if all audio files works correctly I've clicked on each play button, while playing I was maneuvering volume bar, muting and putting volume back on.
+I was clicking on song progress bar to change the time of playing song to check if it will play the song along the changes without any problems.
+
 
 * When the viewport width is less than 768px aside button 'goToTheTop' is not visible otherwise on larger screen is visible
 * Website was tested on iPhone 8. Works and look good in portrait and landscape layout.
