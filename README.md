@@ -59,10 +59,6 @@
 * Audio and Video files allows users to listen music and watch videos by pressing play button.
 * Contact form is making easy way to contact the band by the fans and make all enquiries.
 
-
-
-
-
 ## UX / Design
 
 ### Styling
@@ -128,10 +124,8 @@ Mouse cursor will be automatically focus in empty input box.
 To see if all audio files works correctly I've clicked on each play button, while playing I was maneuvering volume bar, muting and putting volume back on.
 I was clicking on song progress bar to change the time of playing song to check if it will play the song along the changes without any problems.
 
-
 * When the viewport width is less than 768px aside button 'goToTheTop' is not visible otherwise on larger screen is visible
 * Website was tested on iPhone 8. Works and look good in portrait and landscape layout.
-
 
 Website looks and works good on different browsers and all most common screen sizes.
 
@@ -149,7 +143,6 @@ Website looks and works good on different browsers and all most common screen si
     - Scroll down to GitHub Pages and from source drop down list choose "Master branch".
 
     - Create the name for your deployed website and click on "Save" button.
-
 
 
 ## Credits / Acknowledgement
@@ -182,7 +175,6 @@ Website looks and works good on different browsers and all most common screen si
     - Guitar - [image 2](https://pixabay.com/pl/gitara-gitara-gracz-muzyk-670087/)</br>
     - Bass - [image 3](https://pxhere.com/en/photo/978908)</br>
     - Drums - [image 4](https://www.maxpixel.net/Musician-People-Drums-Set-Concert-Man-Musical-2599508)
- 
  
 > Audio </br>
 * Audio files used in this project are from Code Institute assets for this course
