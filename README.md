@@ -85,6 +85,8 @@ RockBand also want to give the fans best offers and make their dreams come true 
 
 ## Testing
 
+> This website was tested on Chrome by using ViewportResizer
+
 ## Deployment
 > This website is hosted and deployed from master branch to GitHub Pages.</br>
 
@@ -134,5 +136,10 @@ RockBand also want to give the fans best offers and make their dreams come true 
 * YouTube video ( iframe ) - video used/shared from Foo Fighters YouTube channel.
     - [Foo Fighters YouTube Channel](https://www.youtube.com/channel/UCi2KNss4Yx73NG0JARSFe0A)
     - [Foo Fighters - The Sky Is A Neighborhood (Official Music Video)](https://www.youtube.com/embed/TRqiFPpw2fY")
+ 
+> With reference to the previous Testing section 
     
+* Link to GoogleChrome webstore to install ViewportResizer.
+    - [ViewportResizer](https://chrome.google.com/webstore/detail/viewport-resizer/kapnjjcfcncngkadhpmijlkblpibdcgm) 
+
 ##### *All assets have been used for educational purposes
