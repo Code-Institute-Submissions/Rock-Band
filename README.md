@@ -41,15 +41,13 @@
 * Contact form is making easy way to contact the band by the fans and make all enquiries.
 
 
-## UX - 
+## UX / Design
 
-
-### styling contejts etc
-user stories and styling
+### Styling
 >   Simple and clear one page style, separated sections, colored headers,</br>contrasting text on dark background.</br> Smooth website scroll and "goBack" button created to be more user friendly.
 
 
-Sections ( pages )
+### Pages/Sections
 > Home
 >    - Button/Link to go back to the top of the page. No content in this section.
     
@@ -68,7 +66,22 @@ Sections ( pages )
 > Contact
  >   - All necesery infmoration about RockBand office, contact form and neswletter subscribe field.
 
+### User stories
+The purpose of webiste is to let old, new fans to hear songs and see videos of RockBand.</br>
+RockBand also want to give the fans best offers and make their dreams come true by allow them to contact and make special events for them as Weddings or Christmas parties.
 
+
+> As a old fan of RockBand I would like to now all the latest news about them.
+
+> I'm a new fan of RockBand and I want to know more about my lovely band and team members.
+
+> As a friend of RockBand fan I want to listen thier songs to found out what kind of music they're playing.
+
+> I want to make a surprise for my girflend because she's really big fan of RockBand. I want to check if there are some cheap prices for tickets  or if they're playing near to our town to take her to the concert.
+
+> My whole family is a big fan of RockBand and my brother Mark is getting merried next month. I want to contact the band and check if it's possible to arrange the concert on his wedding.
+
+> Our band have a big dream to play as a RockBand support. I would like to call their Manager and ask if it's possible.
 
 ## Testing
 
@@ -82,7 +95,7 @@ Sections ( pages )
     - Scroll down to GitHub Pages and from source dropdown list choose "Master branch".
     - Create the name for your deployed website and click on "Save" button.
 
-## Credits
+## Credits / Acknowledgement
 > Whole website text was created and written by myself (Karol Sliwka).</br>
 >
 >
